@@ -39,7 +39,7 @@ window.onscroll = () => {
 };
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Native Android Developer', 'Flutter Developer', 'Java Developer'],
+    strings: ['Android Developer', 'Flutter Developer', 'Java Developer'],
     typeSpeed: 80,
     backSpeed: 80,
     backDelay: 1000,
