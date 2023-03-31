@@ -401,7 +401,7 @@ span {
 
 .footer-icon-go-top a i {
   font-size: 2.4rem;
-  color: var(--second-bg-color);
+  color: var(--text-color);
 }
 
 @media (max-width: 1200px) {
@@ -411,14 +411,14 @@ span {
 }
 
 @media (max-width: 991px) {
-  header {
+  .header {
     padding: 2rem 3%;
   }
 
   section {
     padding: 10rem 3% 2rem;
   }
-  footer {
+  .footer {
     padding: 2rem 3%;
   }
 
@@ -512,7 +512,7 @@ span {
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 520px) {
   .footer {
     flex-direction: column-reverse;
   }
