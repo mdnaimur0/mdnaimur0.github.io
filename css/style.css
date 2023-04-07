@@ -345,7 +345,7 @@ span {
 .contact form textarea {
   width: 100%;
   padding: 1.5rem;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: var(--text-color);
   background: var(--second-bg-color);
   border-radius: 0.8rem;
@@ -404,7 +404,7 @@ span {
 
 @media (max-width: 991px) {
   .header {
-    padding: 2rem 3% 0 3%;
+    padding: 2rem 3% 2rem 3%;
   }
 
   section {
