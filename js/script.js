@@ -1,5 +1,5 @@
 let menuIcon = document.querySelector('#menu-icon');
-let darkModeIcon = document.querySelector('#darkMode-icon');
+let themeModeIcon = document.querySelector('#themeMode-icon');
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
@@ -7,9 +7,11 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
-darkModeIcon.onclick = () => {
-    darkModeIcon.classList.toggle('bx-sun');
-    document.body.classList.toggle('darkMode');
+themeModeIcon.onclick = () => {
+    const isDarkMode = themeModeIcon.classList.contains("bx-sun");
+    themeModeIcon.classList.add(isDarkMode ? 'bx-moon' : 'bx-sun');
+    themeModeIcon.classList.remove(isDarkMode ? 'bx-sun' : 'bx-moon');
+    document.body.classList.toggle('lightMode');
 };
 
 let sections = document.querySelectorAll('section');
@@ -37,11 +39,3 @@ window.onscroll = () => {
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 };
-
-const typed = new Typed('.multiple-text', {
-    strings: ['Android Developer', 'Flutter Developer', 'Java Developer'],
-    typeSpeed: 80,
-    backSpeed: 80,
-    backDelay: 1000,
-    loop: true
-});
