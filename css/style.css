@@ -225,9 +225,8 @@ span {
 
 .experience-container table td {
   text-align: center;
-  padding: 1rem;
   border: 0.1rem solid var(--main-color);
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 400;
 }
 
@@ -504,6 +503,9 @@ span {
 
   .experience-container table {
     width: 100%;
+  }
+  .experience-container table td {
+    padding: 1rem;
   }
 
   .experience-flow {
