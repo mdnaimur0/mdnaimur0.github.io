@@ -14,7 +14,7 @@ function showOrHidePopup() {
     }
     var popup = document.createElement("div");
     popup.id = "ytIdExtractorPopup";
-    popup.style = "position:fixed;right:70px;bottom:20px;background-color:purple!important;color:white!important;padding:10px;width:300px;border-radius:10px;white-space:wrap;";
+    popup.style = "position:fixed;right:70px;bottom:20px;background-color:purple!important;color:white!important;padding:10px;width:250px;border-radius:10px;white-space:wrap;";
     var id = extractYtId();
     if (id) popup.innerHTML = `<b>Youtube Video ID:</b> ${id}<br><b>Youtube Video URL:</b> https://www.youtu.be/${id}<br><br><a href="https://youtu.be/${id}" target="_blank" style="color:purple;text-decoration:none;padding:5px 10px;background-color:white;border-radius:30px">Open in Youtube</a>`;
     else popup.innerHTML = '<h3>Sorry, Youtube ID not found :(</h3>';
