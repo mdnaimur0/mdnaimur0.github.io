@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://mdnaimur0.github.io</loc>
+<lastmod>2024-02-05T08:36:30.962Z</lastmod>
+<changefreq>yearly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://mdnaimur0.github.io/about</loc>
+<lastmod>2024-02-05T08:36:30.962Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://mdnaimur0.github.io/projects</loc>
+<lastmod>2024-02-05T08:36:30.962Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://mdnaimur0.github.io/contact</loc>
+<lastmod>2024-02-05T08:36:30.962Z</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.5</priority>
+</url>
+</urlset>
