@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /java-for-newbies/
+
+Sitemap: https://mdnaimur0.github.io/sitemap.xml
