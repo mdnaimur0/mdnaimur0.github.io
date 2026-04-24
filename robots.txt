@@ -1,5 +1,0 @@
-User-Agent: *
-Allow: /
-Disallow: /java-for-newbies/
-
-Sitemap: https://mdnaimurrahman.com/sitemap.xml
