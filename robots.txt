@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Canonical sitemap is hosted on the new domain.
+Sitemap: https://mdnaimurrahman.com/sitemap.xml
